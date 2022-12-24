@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import propTypes from "prop-types";
 
-export default function TextForm(props) {
+export default function Textutility(props) {
   const handleUpperCaseClick = () => {
     let newText = text.toUpperCase();
     setText(newText);
@@ -77,6 +77,6 @@ export default function TextForm(props) {
   );
 }
 
-TextForm.prototype = { heading: propTypes.string.isRequired };
+Textutility.prototype = { heading: propTypes.string.isRequired };
 
-TextForm.defaultProp = { heading: "Enter Your Text" };
+Textutility.defaultProp = { heading: "Enter Your Text" };

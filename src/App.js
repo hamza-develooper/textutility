@@ -3,7 +3,7 @@ import "./App.css";
 // import Alert from "./components/Alert";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import TextForm from "./components/TextForm";
+import Textutility from "./components/Textutility";
 import Contact from "./components/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -47,7 +47,7 @@ function App() {
         <div className="container my-3">
           <Routes>
 
-            <Route exact path="/" element={<TextForm mode={mode} heading="Enter the text to analyze" />} />
+            <Route exact path="/textutility" element={<Textutility mode={mode} heading="Enter the text to analyze" />} />
 
             <Route exact path="/about" element={<About mode={mode} />} />
 
